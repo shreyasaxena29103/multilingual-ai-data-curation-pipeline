@@ -16,8 +16,14 @@ Built a distributed PySpark pipeline on Databricks to:
 - generate curated Delta datasets
 
 Features:
-✔ Distributed Spark processing  
-✔ Text normalization  
-✔ Quality filtering  
-✔ Duplicate removal  
-✔ Delta Lake storage
+-Distributed Spark processing  
+- Text normalization  
+- Quality filtering  
+- Duplicate removal  
+- Delta Lake storage
+  
+Results:
+- Processed 1M+ multilingual records
+- Removed duplicate samples
+- Generated curated Delta datasets
+- Filtered low-quality training records
